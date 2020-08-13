@@ -6,4 +6,4 @@
 REPORT ZPABAPGIT_TEST1.
 
 Write: 'Ivan ABAPGIT'.
-Write:/ 'Testing branch'.
+Write:/ 'Testing branch: another change'.
