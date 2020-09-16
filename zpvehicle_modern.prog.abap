@@ -130,3 +130,4 @@ START-OF-SELECTION.
   ULINE.
 
   WRITE: ' Just New changes on 16.09.2020'.
+  WRITE: / ' Just New changes on 16.09.2020 afternoon'.
