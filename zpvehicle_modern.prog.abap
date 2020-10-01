@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZPVEHICLE_MODERN.
+REPORT zpvehicle_modern.
 CLASS vehicle DEFINITION.
 
   PUBLIC SECTION.
@@ -92,14 +92,14 @@ ENDCLASS.
 
 START-OF-SELECTION.
   DATA newresult TYPE i.
-  DATA(vehicle1) = new vehicle(
+  DATA(vehicle1) = NEW vehicle(
      make = 'Benz'
       model    = 'C'
       numseat  = 5
-      maxspeed = 200 ).
+      maxspeed = 180 ).
   vehicle1->viewvehicle( ).
   ULINE.
-  data(vehicle2) = new vehicle(
+  DATA(vehicle2) = NEW vehicle(
       make     = 'Toyota'
       model    = 'Hilux'
       numseat  = 5
@@ -126,5 +126,8 @@ START-OF-SELECTION.
   newresult = vehicle1->goslower( 15 ).
   WRITE: / 'better way of calling functional methods- GOSLOWER', newresult.
   ULINE.
-   WRITE: / 'Total No of vehicles : ',vehicle=>numofvehicles.
+  WRITE: / 'Total No of vehicles : ',vehicle=>numofvehicles.
   ULINE.
+
+  WRITE: ' Just New changes on 16.09.2020'.
+  WRITE: / ' Just New changes on 01.10.2020 afternoon'.
