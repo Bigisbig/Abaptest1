@@ -96,7 +96,7 @@ START-OF-SELECTION.
      make = 'Benz'
       model    = 'C'
       numseat  = 5
-      maxspeed = 200 ).
+      maxspeed = 180 ).
   vehicle1->viewvehicle( ).
   ULINE.
   DATA(vehicle2) = NEW vehicle(
