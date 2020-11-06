@@ -133,3 +133,4 @@ START-OF-SELECTION.
   WRITE: / ' Just New changes on 01.10.2020 afternoon'.
   Write: / '03.10.2010'.
   WRITE: / 'this line was created online '.
+  WRITE: / 'this line was created online 06.11.2020'.
